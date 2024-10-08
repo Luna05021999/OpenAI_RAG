@@ -93,6 +93,6 @@ Las contribuciones son bienvenidas. Si tienes sugerencias, preguntas o mejoras, 
 Este proyecto está licenciado bajo la Licencia MIT. Siéntete libre de usar y modificar el código para tus propios proyectos.
 
 ### Contacto
-Luna Outerelo Fernández.
-Email: lunaouterelo9@gmail.com
-Linkedin: https://www.linkedin.com/in/luna-outerelo-4414a0192/
+- Luna Outerelo Fernández.
+- Email: lunaouterelo9@gmail.com
+- Linkedin: https://www.linkedin.com/in/luna-outerelo-4414a0192/
