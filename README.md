@@ -1,4 +1,4 @@
-### Proyecto OPENIARAG - Interfaz de Procesamiento de Documentos PDF con Langchain 🤖📄
+##### Proyecto OPENIARAG - Interfaz de Procesamiento de Documentos PDF con Langchain 🤖📄
 
 Este proyecto implementa un flujo de trabajo en Python que permite cargar y procesar documentos PDF mediante técnicas avanzadas de procesamiento de lenguaje natural (NLP). Usando Langchain y OpenAI, se crea una base de datos de vectores para realizar búsquedas semánticas en documentos. Además, el proyecto incluye una interfaz interactiva construida con Gradio para que los usuarios puedan interactuar fácilmente con los documentos y obtener respuestas basadas en lenguaje natural.
 
