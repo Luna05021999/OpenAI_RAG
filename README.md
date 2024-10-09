@@ -2,7 +2,7 @@
 
 Este proyecto implementa un flujo de trabajo en Python que permite cargar y procesar documentos PDF mediante técnicas avanzadas de procesamiento de lenguaje natural (NLP). Usando Langchain y OpenAI, se crea una base de datos de vectores para realizar búsquedas semánticas en documentos. Además, el proyecto incluye una interfaz interactiva construida con Gradio para que los usuarios puedan interactuar fácilmente con los documentos y obtener respuestas basadas en lenguaje natural.
 
-📝 Descripción del Proyecto
+## 📝 Descripción del Proyecto
 Este proyecto está diseñado para procesar y analizar documentos PDF mediante el uso de Langchain, Chroma (como vectorstore), OpenAI para embeddings y modelos de lenguaje, y Gradio para construir una interfaz interactiva. El sistema permite:
 
 Cargar documentos en formato PDF.
@@ -16,7 +16,7 @@ ChromaDB: Almacén de vectores para realizar consultas semánticas eficientes y 
 Gradio: Interfaz de usuario amigable que permite a los usuarios interactuar con los documentos de forma sencilla.
 Prompting: Un esquema de prompting para controlar el comportamiento de los modelos de lenguaje y cómo deben responder ante las consultas.
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 Carga y análisis de documentos PDF:
 
 Los usuarios pueden cargar hasta 6 documentos PDF simultáneamente.
@@ -34,7 +34,7 @@ Prompting de comportamiento:
 
 Controla el estilo y tono de las respuestas generadas por el modelo, para que sean informativas, concisas, o extensas según sea necesario.
 
-📦 Componentes del Proyecto
+## 📦 Componentes del Proyecto
 1. Función de Respuesta:
 Esta función toma la entrada del usuario (consulta), la envía a través de la chain, y devuelve una respuesta adecuada extraída de los documentos PDF procesados. Además, incluye un comportamiento para manejar respuestas si no se encuentra información relevante.
 
@@ -50,7 +50,7 @@ La interfaz con Gradio permite cargar documentos y realizar consultas en lenguaj
 5. Prompting de Comportamiento:
 Un esquema de prompting que controla cómo responde el modelo de lenguaje. Esto permite ajustar el tono de las respuestas según sea necesario, ya sea para obtener respuestas más breves o más detalladas.
 
-🛠️ Instalación
+## 🛠️ Instalación
 Requisitos
 Python 3.8+
 OpenAI API Key (es necesaria para generar los embeddings y utilizar el modelo de lenguaje)
@@ -66,14 +66,14 @@ Configurar la API de OpenAI: Asegúrate de tener una clave válida de OpenAI. Pu
 
 Ejecutar la aplicación: Inicia el proyecto para probar la interfaz de Gradio y comenzar a hacer consultas a los documentos cargados.
 
-📚 Tecnologías Utilizadas
+## 📚 Tecnologías Utilizadas
 Langchain: Para gestionar las cadenas de procesamiento y la integración con OpenAI.
 OpenAI: Utilizado para generar embeddings y el modelo de lenguaje.
 Chroma: Almacén de vectores para realizar consultas semánticas sobre los documentos cargados.
 Gradio: Para crear la interfaz gráfica interactiva.
 Python: Lenguaje de programación principal.
 
-📊 Documentos Incluidos
+## 📊 Documentos Incluidos
 BOE - Ley 2022
 Cámara de España - Fiscalidad
 Guía de Subvenciones y Ayudas
@@ -81,15 +81,15 @@ Ley 2014 Consolidada
 AEPD - Gestión de Riesgos
 Ciclo Vital de la Empresa
 
-💻 Ejecución
+## 💻 Ejecución
 Cargar los documentos: Los usuarios pueden cargar los documentos PDF en la interfaz de Gradio.
 Realizar consultas: El sistema permite realizar preguntas en lenguaje natural y proporciona respuestas basadas en el contenido de los documentos cargados.
 Visualización de respuestas: Las respuestas se muestran directamente en la interfaz, extrayendo la información más relevante de los documentos.
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si tienes sugerencias, preguntas o mejoras, no dudes en abrir un issue o enviar un pull request.
 
-📋 Licencia
+## 📋 Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Siéntete libre de usar y modificar el código para tus propios proyectos.
 
 ### Contacto
